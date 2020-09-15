@@ -1,11 +1,20 @@
 import React from 'react';
-import './Header.css'
+import './Header.css';
+import EmailIcon from '@material-ui/icons/Email';
+import FacebookIcon from '@material-ui/icons/Facebook';
 
 function Header() {
     return (
         <div className="header">
-            <p>This is the header section</p>
+            <div className="header_icon">
+                <EmailIcon />
+                <p>farmmall@gmail.com</p>
+            </div>
+            <div className="header_icon">
+                <FacebookIcon />
+            </div>
         </div>
+        
     )
 }
 
