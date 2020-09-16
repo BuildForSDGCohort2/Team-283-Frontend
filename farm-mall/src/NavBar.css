@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    color: rgb(34, 182, 4);
+    overflow-x: scroll;
+    padding: 10px;
+    align-items: center;
+    padding-left: 40px;
+}
+.navbar::-webkit-scrollbar {
+    display: none;
+}
+.navlinks {
+    display: flex;
+    margin-left: 300px;
+}
+.navlinks > h2 {
+    cursor: pointer;
+    /* margin-left: 30px; */
+    margin-right: 30px;
+    font-weight: 300;
+    opacity: 0.6;
+    transition: transform 50ms ease-out;
+}
+
+.navlinks > h2:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
