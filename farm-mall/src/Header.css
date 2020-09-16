@@ -1,0 +1,29 @@
+.header {
+    background-color: rgb(34, 182, 4);
+    color: rgb(252, 250, 250);
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.header_icon--active > p {
+    display: inline-flex !important;
+}
+.header_icon:hover > p {
+    display: inline-flex;
+}
+
+.header_icon > p {
+    letter-spacing: 2px;
+    margin-left: 5px;
+    margin-right: auto;
+    font-size: small;
+}
+.header_icon {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    width: 100px;
+    align-items: center;
+    margin-left: 10px;
+}
