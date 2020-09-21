@@ -5,6 +5,7 @@
     padding: 10px;
     align-items: center;
     padding-left: 40px;
+    font-size: small;
 }
 .navbar::-webkit-scrollbar {
     display: none;
@@ -25,4 +26,9 @@
 .navlinks > h2:hover {
     opacity: 1;
     transform: scale(1.2);
+}
+.search_bar > form {
+    display: flex;
+    height: 30px;
+    margin-left: 30px;
 }
