@@ -1,6 +1,6 @@
 import React from 'react';
 import './NavBar.css';
-import SearchIcon from '@material-ui/icons/Search';
+
 
 function NavBar() {
     return (
